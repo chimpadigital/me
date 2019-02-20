@@ -1,0 +1,20 @@
+<svg id="planta1" xmlns="http://www.w3.org/2000/svg" width="64.405" height="95.506" viewBox="0 0 64.405 95.506">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8c72cc;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #2d0a7e;
+        stroke-miterlimit: 10;
+        stroke-width: 0.659px;
+      }
+    </style>
+  </defs>
+  <path id="Path_2877" data-name="Path 2877" class="cls-1" d="M888.342,300.906s15.33-24.753,1.275-38.086c-10.332-7.441-22.116,5.582-28.627-1.86s23.257-31.941,13.646-44.344-28.839-13.333-40-2.79,6.822,69.659,20.775,87.08C855.408,300.906,873.833,303.02,888.342,300.906Z" transform="translate(-831.145 -206.56)"/>
+  <g id="Group_1054" data-name="Group 1054" transform="translate(17.777 1.789)">
+    <path id="Path_2878" data-name="Path 2878" class="cls-2" d="M861.963,300.761s-27.4-30.518-23.427-58.127,14.032-35.37,14.032-35.37" transform="translate(-838.142 -207.264)"/>
+  </g>
+</svg>
