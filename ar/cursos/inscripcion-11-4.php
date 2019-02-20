@@ -11,12 +11,43 @@
                             <div class="contact_input_area">
                                 <div class="row">
                                     <div class="col-10">
-                                        <h3 class="mb-3">Ya casi</h3>
+                                        <h3 class="mb-3">Pre-inscripción</h3>
                                         <div class="wellcome-heading wow fadeInLeft" data-wow-delay="0.7s">
-                                            <h2>Te enviamos un mail con instrucciones para completar tu inscripción</h2>
+                                            <h2>Comunicá efectivamente</h2>
                                         </div>
                                     </div>
-                                    
+                                    <div class="col-2">
+                                        <img src="/meexperiencias/ar/img/core-img/sonrisa.png" class="sonrisa" alt="">
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Nombre y Apellido" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Teléfono" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Casilla de correo" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="¿Dudas?" required></textarea>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                    </div>
                                 </div>
                             </div>
                             <!-- Message Input Area End -->
@@ -26,12 +57,14 @@
                 <div class="col-12 col-md-2"></div>
                 <div class="col-12 col-md-5 wow fadeInDown" data-wow-delay="1s" style="z-index:1000;">
                     <div class="precio">
-                        <h3 class="">Recordame</h3>                        
+                        <h3 class="">Costo</h3>
+                        <h1 class="mb-4">$600</h1>
+                        
                         
                         <ul class="info-evento mt-5 wow fadeInLeft" data-wow-delay=".8s">
                             <li>
                                 <img src="../img/core-img/calendar.svg" alt="" class="float-left mr-4 icono-evento">
-                                <h5>9 de Mayo</h5>
+                                <h5>11 de Abril</h5>
                             </li>
                             <li>
                                 <img src="../img/core-img/timer.svg" alt="" class="float-left mr-4 icono-evento">
@@ -158,12 +191,12 @@
                         <h2>Contacto</h2>
                     </div>
                     <div class="footer-text">
-                        <img src="/img/core-img/mail.svg" class="float-left mr-3 mb-5" alt="">
+                        <img src="/meexperiencias/ar/img/core-img/mail.svg" class="float-left mr-3 mb-5" alt="">
                         <h4>EscribiME</h4>
                         <p>contamemas@meexperiencias.com</p>
                     </div>
                     <div class="footer-text">
-                        <img src="/img/core-img/tel.svg" class="float-left mr-3 mb-5" alt="">
+                        <img src="/meexperiencias/ar/img/core-img/tel.svg" class="float-left mr-3 mb-5" alt="">
                         <h4>LlamaME</h4>
                         <p>+54-9-351-2017150</p>
                     </div>

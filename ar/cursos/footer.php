@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-1-5 col-md-3 mb-4 mb-md-0">
-                    <img src="img/core-img/logo-footer.svg" class="mb-3" alt="">
+                    <img src="/meexperiencias/ar/img/core-img/logo-footer.svg" class="mb-3" alt="">
                     <p class="text-white">Somos especialistas en Felicidad Organizacional y nos apasiona trabajar con otros para crecer, aprender y actualizarnos</p>
                     <div class="footer-social-icon">
                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -18,12 +18,12 @@
                         <h3>Contacto</h3>
                     </div>
                     <div class="footer-text2">
-                        <img src="../img/core-img/mail.svg" class="float-left mr-2 mb-1" alt="">
+                        <img src="/meexperiencias/ar/img/core-img/mail.svg" class="float-left mr-2 mb-1" alt="">
                         <h4>EscribiME</h4>
                         <p>contamemas@meexperiencias.com</p>
                     </div>
                     <div class="footer-text2">
-                        <img src="../img/core-img/tel.svg" class="float-left mr-2 mb-1" alt="">
+                        <img src="/meexperiencias/ar/img/core-img/tel.svg" class="float-left mr-2 mb-1" alt="">
                         <h4>LlamaME</h4>
                         <p>+54-9-351-2017150</p>
                     </div>

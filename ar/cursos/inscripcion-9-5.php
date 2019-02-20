@@ -17,7 +17,7 @@
                                         </div>
                                     </div>
                                     <div class="col-2">
-                                        <img src="img/core-img/sonrisa.png" class="sonrisa" alt="">
+                                        <img src="/meexperiencias/ar/img/core-img/sonrisa.png" class="sonrisa" alt="">
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-6">
@@ -191,12 +191,12 @@
                         <h2>Contacto</h2>
                     </div>
                     <div class="footer-text">
-                        <img src="/img/core-img/mail.svg" class="float-left mr-3 mb-5" alt="">
+                        <img src="/meexperiencias/ar/img/core-img/mail.svg" class="float-left mr-3 mb-5" alt="">
                         <h4>EscribiME</h4>
                         <p>contamemas@meexperiencias.com</p>
                     </div>
                     <div class="footer-text">
-                        <img src="/img/core-img/tel.svg" class="float-left mr-3 mb-5" alt="">
+                        <img src="/meexperiencias/ar/img/core-img/tel.svg" class="float-left mr-3 mb-5" alt="">
                         <h4>LlamaME</h4>
                         <p>+54-9-351-2017150</p>
                     </div>

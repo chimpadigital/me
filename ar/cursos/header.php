@@ -66,9 +66,9 @@
                                         <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
                                     </div>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/core-img/arg.png" class="pais" alt=""></a>
+                                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../img/core-img/arg.png" class="pais" alt=""></a>
                                         <div class="dropdown-menu" aria-labelledby="dropdown09">
-                                            <a class="dropdown-item" href="#fr"><img src="img/core-img/cr.png" class="pais" alt=""></a>
+                                            <a class="dropdown-item" href="#fr"><img src="../img/core-img/cr.png" class="pais" alt=""></a>
                                         </div>
                                     </li>
                                     

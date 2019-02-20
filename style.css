@@ -1366,6 +1366,12 @@ img.pais{width: 40px;}
     border-radius: 30px;
 }
 
+#phone {
+    font-size: 15px;
+padding: 9px 14px;
+border-radius: 30px;
+}
+
 #email {
         font-size: 15px;
     padding: 9px 14px;

@@ -92,34 +92,12 @@
                 <div class="col-12 col-md-1"></div>
                 <div class="col-12 col-md-5 wow fadeInDown" data-wow-delay="1s" style="z-index:1000;">
                     <div class="precio">
-                        <h3 class="">Costo</h3>
-                        <h1>$600</h1>
+                    <h3 class="">Costo</h3>
+                        <h1 class="mb-4">$600</h1>
+                        
+                        <a href="" class="btn btn-primary mt-5">Inscribirse</a>
 
-                        <p>Datos para realizar la transferencia:</p>
-                        <ul class="evento">
-                            <li>
-                                Titular ME Motivador de Experiencias SAS
-                            </li>
-                            <li>
-                                CUIT 30-71579237-7
-                            </li>
-                            <li>
-                                Moneda AR$
-                            </li>
-                            <li>
-                                Banco ICBC
-                            </li>
-                            <li>
-                                Nueva Córdoba - Suc 887
-                            </li>
-                            <li>
-                                Nro de Cta Cte 887/02001366/78
-                            </li>
-                            <li>
-                                CBU 0150887902000001366785
-                            </li>
-                        </ul>
-                        <h6 class="mt-5"><b>*Información importante !! La inscripción finaliza cuando realizas el pago total del curso por medio de transferencia bancaria.</b> </h6>
+                        <h6 class="mt-3"><b>*Información importante !! La inscripción finaliza cuando realizas el pago total del curso por medio de transferencia bancaria.</b> </h6>
                     </div>
                 </div>
             </div>
@@ -199,7 +177,7 @@
                                     <img src="/img/charlas/13-6.jpg" alt="">
                                     <div class="charlas-hover-effects">
                                         <div class="charlas-social-icon">
-                                            <a href="/cursos/13-6">
+                                            <a href="/cursos/13-6.php">
                                                 <h5>Conocé tus fortalezas</h5>
                                                 <ul class="d-inline-flex charla-info">
                                                     <li>

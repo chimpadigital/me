@@ -31,7 +31,7 @@
                         <ul class="info-evento mt-5 wow fadeInLeft" data-wow-delay=".8s">
                             <li>
                                 <img src="../img/core-img/calendar.svg" alt="" class="float-left mr-4 icono-evento">
-                                <h5>9 de Mayo</h5>
+                                <h5>13 de Junio</h5>
                             </li>
                             <li>
                                 <img src="../img/core-img/timer.svg" alt="" class="float-left mr-4 icono-evento">

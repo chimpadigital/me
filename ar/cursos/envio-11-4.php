@@ -14,7 +14,7 @@ $phone = $_REQUEST['phone'];
 $message = $_REQUEST['message'];
 
 
-$email_subject = "Consulta curso nuevas economias";
+$email_subject = "Consulta comunica efectivamente";
 
 $user_subject = "Finalizar inscripcion";
 
