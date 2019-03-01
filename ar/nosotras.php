@@ -1,4 +1,88 @@
-<?php include 'header.php';?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>ME Experiencia - Consultora en felicidad organizacional</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.png">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
+    </div>
+
+    <!-- Facebook widget -->
+    <div id="fb-root"></div>
+    <script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2&appId=1352445738104069&autoLogAppEvents=1"></script>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-xl navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand d-block d-xl-none" href="bienvenido.php">
+                                <img src="img/core-img/logo-menu.svg" alt="">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav mr-auto" id="nav" style="align-items: center;">
+                                    <li class="nav-item"><a class="nav-link" href="bienvenido.php"><span>Bienvenido</span></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="nosotras.php"><span class="active-nuevo">¿Quienes Somos?</span></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="servicios.php">¿Qué hacemos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                                    
+                                </ul>
+                                <a class="navbar-brand d-none d-xl-block" href="bienvenido.php">
+                                    <img src="img/core-img/logo-menu.svg" alt="">
+                                </a>
+                                <ul class="navbar-nav ml-auto" id="nav" style="align-items: center;">
+                                    <li class="nav-item"><a class="nav-link" href="cursos.php">Próximos cursos</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
+                                    <div class="menu-social-icon">
+                                        <a href="https://www.facebook.com/MEExperiencias" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com/meexperiencias/ " target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </div>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="nosotras.php" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/core-img/arg.png" class="pais" alt=""></a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                            <a class="dropdown-item" href="../cr/nosotras.php"><img src="img/core-img/cr.png" class="pais" alt=""></a>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
 
 
     <!-- ***** Wellcome Area Start ***** -->
@@ -9,20 +93,20 @@
                     <div class="wellcome-heading wow fadeInLeft" data-wow-delay="0.7s">
                         <h2 class="mt-3">PENSAMOS GLOBAL<br>ACTUAMOS LOCAL</h2>
                     </div>
-                    <a href="#contact" class="btn-primary wow fadeInLeft" data-wow-delay="0.9s">INFORMAME</a>
+                    <a href="#conoceme" class="btn-primary wow fadeInLeft" data-wow-delay="0.9s">CONOCEME</a>
                 </div>
                 <div class="col-12 col-md-2"></div>
             </div>
         </div>
-        <div class="bg-white planeta-bg position-relative">
-        <img src="img/bg-img/somos-top.svg" class="img-fluid somos-t w-100" alt="">
+        <div class="bg-white planeta-bg position-relative" id="conoceme">
+        <img src="img/bg-img/somos-top.svg" class="img-fluid somos-t w-100" alt="" >
             <div class="somos wow fadeInUp somos position-relative" data-wow-delay="0.3s">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-1"></div>
                         <div class="col-12 col-md-10 text-center">
                             
-                            <p class="text-white">Somos especialistas en Felicidad Organizacional y nos apasiona trabajar con otros para crecer, aprender y actualizarnos.<br>
+                            <p class="text-white">Somos especialistas en Felicidad Organizacional y nos apasiona trabajar con otros <br> para crecer, aprender y actualizarnos.<br>
                             Creemos que para transformar nuestra realidad local, es necesario desarrollar la inteligencia colectiva a nivel global, por eso, nos nutrimos de una red de socios estratégicos en latinoamérica, potenciando la vanguardia en la gestión de talentos organizacionales.</p>
                             
                         </div>
@@ -53,7 +137,7 @@
             </div>
             <div class=" ml-md-5 mr-md-5 row">
                 <!-- Single Special Area -->
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-lg-6 col-md-12">
                     <div class="single-special wow fadeInUp" data-wow-delay="0.2s">
                         <h2 class="mb-30">Nuestro Propósito</h2>
                         <p>Colaborar para alcanzar el octavo objetivo de la Agenda 2030 para el Desarrollo Sostenible:<br></br>
@@ -62,7 +146,7 @@
                     </div>
                 </div>
                 <!-- Single Special Area -->
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-lg-6 col-md-12">
                     <div class="single-special wow fadeInUp" data-wow-delay="0.6s">
                         <h2 class="mb-30">Nuestra Misión</h2>
                         <p>Ser motores de transformación en organizaciones y empresas con foco en las personas, la conciencia del bienestar, el triple impacto y la acción mancomunada para mejorar el entorno en el que vivimos.</p>
@@ -117,7 +201,7 @@
                             </div>
                         </div>
                         <div class="member-text text-center">
-                            <h4>Melisa Díaz Acuña</h4>
+                            <h4>Melisa Díaz <br> Acuña</h4>
                             <p>Co-Founder</p>
                         </div>
                     </div>
@@ -153,7 +237,7 @@
                             </div>
                         </div>
                         <div class="member-text text-center">
-                            <h4>Luciana Ballaré Scopel</h4>
+                            <h4>Luciana Ballaré <br> Scopel</h4>
                             <p>Comunicación</p>
                         </div>
                     </div>
@@ -173,7 +257,7 @@
                             </div>
                         </div>
                         <div class="member-text text-center">
-                            <h4>Antonella Prinzi</h4>
+                            <h4>Antonella <br> Prinzi</h4>
                             <p>Diseño</p>
                         </div>
                     </div>
@@ -191,7 +275,7 @@
                             </div>
                         </div>
                         <div class="member-text text-center">
-                            <h4>Valentina Barrios</h4>
+                            <h4>Valentina <br> Barrios</h4>
                             <p>Procesos</p>
                         </div>
                     </div>
@@ -199,7 +283,7 @@
                 <div class="col-md-3 col-12">
                     <div class="single-team-member">
                         <div class="member-image text-center">
-                            <img src="img/team-img/ale.png" class="w-100" alt="">
+                            <img src="img/team-img/ale.jpg" class="w-100" alt="">
                             <div class="team-hover-effects">
                                 <p class="text-white text-center">Equipo Centroamérica:<br>¡la que exporta la felicidad a otros lugares!</p>
                                 <div class="team-social-icon">
@@ -209,7 +293,7 @@
                             </div>
                         </div>
                         <div class="member-text text-center">
-                            <h4>Alejandra Rodríguez</h4>
+                            <h4>Alejandra <br> Rodríguez</h4>
                             <p>Centroamérica</p>
                         </div>
                     </div>
@@ -230,7 +314,7 @@
                             <h2 class="mb-4">Nuestro día a día</h2>
 
                            <!-- LightWidget WIDGET -->
-                           <script src="http://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/477991bad43b5dbf836075eeb09a7379.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+                           <script src="http://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/477991bad43b5dbf836075eeb09a7379.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 
 
 
@@ -254,7 +338,74 @@
                         <!-- <div class="line-shape"></div> -->
                     </div>
                 </div>
-                <div class="col-12 col-md-8">
+                <div class="col-12 d-lg-none d-block">
+                    <div class="app_screenshots_slides owl-carousel">
+                        <div class="single-shot">
+                        <a href="http://www.espacioabasto.com.ar/" target="_blank">
+                                <div class="red-logo wow fadeInUp" data-wow-delay="0.6s">
+                                    <img src="img/logos/eabasto.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single-shot">
+                            <a href="https://www.institutodelbienestar.cl/" target="_blank">
+                                <div class="red-logo wow fadeInUp" data-wow-delay="0.6s">
+                                    <img src="img/logos/ibienestar.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single-shot">
+                            <a href="http://finclusionpartners.net/" target="_blank">
+                                <div class="red-logo wow fadeInUp" data-wow-delay="0.6s">
+                                    <img src="img/logos/financial.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single-shot">
+                            <a href="https://presidentialprecinct.org/" target="_blank">
+                                <div class="red-logo wow fadeInUp" data-wow-delay="0.6s">
+                                    <img src="img/logos/presidential.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single-shot">
+                            <a href="http://www.aleadership.org/" target="_blank">
+                                <div class="red-logo wow fadeInUp" data-wow-delay="0.6s">
+                                    <img src="img/logos/advanced.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single-shot">
+                            <a href="http://www.netimakerspace.com/" target="_blank">
+                                <div class="red-logo wow fadeInUp" data-wow-delay="0.6s">
+                                    <img src="img/logos/neti.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single-shot">
+                            <a href="https://www.millennialec.com/" target="_blank">
+                                <div class="red-logo wow fadeInUp" data-wow-delay="0.6s">
+                                    <img src="img/logos/millennial.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single-shot">
+                            <a href="https://ylai.state.gov/" target="_blank">
+                                <div class="red-logo wow fadeInUp" data-wow-delay="0.6s">
+                                    <img src="img/logos/young.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single-shot">
+                            <a href="https://sistemab.org/" target="_blank">
+                                <div class="red-logo wow fadeInUp" data-wow-delay="0.6s">
+                                    <img src="img/logos/sb.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 d-none d-md-block">
                     <div class="row">
                         <div class="col-md-4 col-6">
                             <a href="http://www.espacioabasto.com.ar/" target="_blank">
@@ -385,17 +536,17 @@
                         <p>+54-9-351-2017150</p>
                     </div>
                     <div class="footer-social-icon">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/MEExperiencias" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+<a href="https://twitter.com/meexperiencias" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<a href="https://www.instagram.com/meexperiencias/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                     
                 </div>
                 <div class="col-md-7">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="#" method="post">
+                        <form action="cursos/envio-general.php" method="post">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">

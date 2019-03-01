@@ -117,7 +117,7 @@ if (!$mail->send()) {
 
 if($mail_enviado)
 {
-echo "<script>location.href='/meexperiencias/ar/cursos/gracias-9-5.php';</script>";
+echo "<script>location.href='gracias-13-6.php';</script>";
 
 }
 else

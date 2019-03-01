@@ -12,7 +12,7 @@
     <title>ME Experiencia - Consultora en felicidad organizacional</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/core-img/favicon.png">
 
     <!-- Core Stylesheet -->
     <link href="style.css" rel="stylesheet">
@@ -34,24 +34,24 @@
     <section class="lobby_area clearfix" id="home">
         <div class="container h-100 no-gutters">
             <div class="row lobby-h align-items-center">
-                <div class="bg-white lobby-h col-12 col-md-6">
-                    <div class="wellcome-heading2 position-relative">
-                        <img src="img/core-img/logo.svg" alt="">
+                <div class="bg-white lobby-h col-12 col-md-5 col-xs-12">
+                    <div class="wellcome-heading2 wellcome-heading22 position-relative">
+                        <img src="img/core-img/logo.svg" alt="" class="img-fluid imagen-logo">
                         
                     </div>
                     <div class="separator d-none d-lg-block">
                         <img src="img/core-img/circulo-before.svg" alt="">
                     </div>
+                    <div class="separator d-block d-lg-none">
+                        <img src="img/core-img/circulo-before.svg" alt="">
+                    </div>
                 </div>
-                <div class="separator d-block d-lg-none">
-                    <img src="img/core-img/circulo-before.svg" alt="">
-                </div>
-                <div class="col-12 col-md-6 position-relative">
+                <div class="col-12 col-md-7 position-relative h100" >
                     <div class="get-start-area float-lg-right">
-                        <a href="/ar/bienvenido.php" class="btn btn-pais d-block mb-4">
-                            Argentina <img src="img/core-img/arg.png" class="ml-3 w-25" alt="Argentina">
+                        <a href="ar/bienvenido.php" class="btn btn-pais d-block mb-4 boton-celular">
+                            Argentina <img src="img/core-img/arg.png" class="ml-3 w-25 " alt="Argentina">
                         </a>
-                        <a href="/cr/bienvenido.php" class="btn btn-pais d-block">
+                        <a href="cr/bienvenido.php" class="btn btn-pais btn-pais-2 d-block">
                             Costa Rica <img src="img/core-img/cr.png" class="ml-3 w-25" alt="Argentina">
                         </a>
 

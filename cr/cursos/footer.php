@@ -7,10 +7,10 @@
                     <img src="img/core-img/logo-footer.svg" class="mb-3" alt="">
                     <p class="text-white">Somos especialistas en Felicidad Organizacional y nos apasiona trabajar con otros para crecer, aprender y actualizarnos</p>
                     <div class="footer-social-icon">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/MEExperiencias" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/meexperiencias" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/meexperiencias/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <div class="col-1-5 col-md-3 mb-4 mb-md-0">

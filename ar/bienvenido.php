@@ -1,4 +1,88 @@
-<?php include 'header.php';?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>ME Experiencia - Consultora en felicidad organizacional</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.png">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
+    </div>
+
+    <!-- Facebook widget -->
+    <div id="fb-root"></div>
+    <script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2&appId=1352445738104069&autoLogAppEvents=1"></script>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-xl navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand d-block d-xl-none" href="bienvenido.php">
+                                <img src="img/core-img/logo-menu.svg" alt="">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav mr-auto" id="nav" style="align-items: center;">
+                                    <li class="nav-item"><a class="nav-link" href="bienvenido.php"><span class="active-nuevo">Bienvenido</span></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quienes Somos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="servicios.php">¿Qué hacemos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                                    
+                                </ul>
+                                <a class="navbar-brand d-none d-xl-block" href="bienvenido.php">
+                                    <img src="img/core-img/logo-menu.svg" alt="">
+                                </a>
+                                <ul class="navbar-nav ml-auto" id="nav" style="align-items: center;">
+                                    <li class="nav-item"><a class="nav-link" href="cursos.php">Próximos cursos</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
+                                    <div class="menu-social-icon">
+                                        <a href="https://www.facebook.com/MEExperiencias" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com/meexperiencias/ " target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </div>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="bienvenido.php" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/core-img/arg.png" class="pais" alt=""></a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                            <a class="dropdown-item" href="../cr/bienvenido.php"><img src="img/core-img/cr.png" class="pais" alt=""></a>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
 
 
     <!-- ***** Wellcome Area Start ***** -->
@@ -8,7 +92,7 @@
                 <div class="col-12 col-md-4">
                     <div class="wellcome-heading wow fadeInLeft text-center text-md-left" data-wow-delay="0.7s">
                         <h2 class="mb-5">Consultora en Felicidad Organizacional</h2>
-                        <a href="#about" class="btn-primary wow fadeInLeft mt-5" data-wow-delay="0.9s">CONOCEME</a>
+                        <a href="servicios.php" class="btn-primary wow fadeInLeft mt-5" data-wow-delay="0.9s">INFORMAME</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-2"></div>
@@ -24,7 +108,7 @@
                     <div class="col-12 col-md-6 text-center mt-5 mt-md-0">
                         <img src="img/core-img/me-eb.svg" class="pl-5 pr-5 pr-md-0 pl-md-0" alt="">
                         <h3 class="text-white mt-5 mb-5">Promovemos la felicidad organizacional para potenciar tu marca empleadora</h3>
-                        <a href="" class="btn-primary">CONOCEME</a>
+                        <!-- <a href="#about" class="btn-primary">CONOCEME</a> -->
                     </div>
                     <div class="col-12 col-md-3"></div>
                 </div>
@@ -59,7 +143,7 @@
                             <img src="img/core-img/asesoria.svg" alt="">
                         </div>
                         <h4 class="mb-60">Asesoría</h4>
-                        <a href="" class="btn-primary btn-yellow">CONOCEME</a>
+                        <a href="servicios.php" class="btn-primary btn-yellow">CONOCEME</a>
                     </div>
                 </div>
                 <!-- Single Special Area -->
@@ -69,7 +153,7 @@
                             <img src="img/core-img/cursos.svg" alt="">
                         </div>
                         <h4  class="mb-30">Cursos de Formación</h4>
-                        <a href="" class="btn-primary btn-yellow">CONOCEME</a>
+                        <a href="servicios.php" class="btn-primary btn-yellow">CONOCEME</a>
                     </div>
                 </div>
                 <!-- Single Special Area -->
@@ -79,7 +163,7 @@
                             <img src="img/core-img/team.svg" alt="">
                         </div>
                         <h4  class="mb-30">Team<br>Building</h4>
-                        <a href="" class="btn-primary btn-yellow">CONOCEME</a>
+                        <a href="servicios.php" class="btn-primary btn-yellow">CONOCEME</a>
                         
                     </div>
                 </div>
@@ -90,7 +174,7 @@
                             <img src="img/core-img/charlas.svg" alt="">
                         </div>
                         <h4  class="mb-30">Charlas y Conferencias</h4>
-                        <a href="" class="btn-primary btn-yellow">CONOCEME</a>
+                        <a href="servicios.php" class="btn-primary btn-yellow">CONOCEME</a>
                         
                     </div>
                 </div>
@@ -168,7 +252,7 @@
     <!-- ***** Client Feedback Area End ***** -->
 
     <!-- Special Description Area -->
-    <section class="bg-white section_padding_100 clearfix">
+    <section class="bg-white section_padding_100 clearfix pb-4">
         <div class="special_description_area mt-0">
             <div class="container">
                 <div class="row">
@@ -179,46 +263,53 @@
                             <!-- <div class="line-shape"></div> -->
                         </div>
                     </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/gedisur.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/iveco.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/flider.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/lekons.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/protectia.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/paclin.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/proa.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/tecnocampo.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/tecnoair.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/apex.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/golf.png" alt="">
-                    </div>
-                    <div class="col-md-2 col-6 text-center">
-                        <img src="img/logos/nodhos.png" alt="">
-                    </div>
+                    <div class="cont-princ-slider" style="background-color:white">
+                          <div class="slier-prin">
+                            <div class="juegos_DWG"><img src="img/logos/gedisur.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/iveco.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/flider.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/lekons.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/protectia.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/paclin.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/proa.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/tecnocampo.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/tecnoair.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/apex.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/golf.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/nodhos.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/01.jpg" alt=""></div>
+                            <!-- <div class="juegos_DWG"><img src="img/logos/apex.png" alt=""></div> -->
+                            <div class="juegos_DWG"><img src="img/logos/03.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/04.jpg" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/05.jpg" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/06.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/gedisur.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/08.jpg" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/09.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/lekons.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/flider.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/12.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/13.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/14.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/15.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/tecnocampo.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/nodhos.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/18.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/01.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/paclin.jpg" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/20.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/21.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/22.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/sancor.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/24.png" alt=""></div>
+                            <div class="juegos_DWG"><img src="img/logos/tecnoair.png" alt=""></div>
+                          </div>
+                        </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- ***** Our Team Area Start ***** -->
     <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
@@ -238,10 +329,10 @@
                     <div class="single-shot">
                         <div class="single-team-member">
                             <div class="charlas-image">
-                                <img src="/img/charlas/11-4.jpg" alt="">
+                                <img src="img/charlas/11-4.jpg" alt="">
                                 <div class="charlas-hover-effects">
                                     <div class="charlas-social-icon">
-                                        <a href="/cursos/11-4.php">
+                                        <a href="cursos/11-4.php">
                                             <h5>Comunicá efectivamente</h5>
                                             <ul class="d-inline-flex charla-info">
                                                 <li>
@@ -251,7 +342,7 @@
                                                     <i class="fa fa-clock-o"></i> 18:00hs
                                                 </li>
                                             </ul>
-                                            <a href="" class="charlas-mas">
+                                            <a href="cursos/11-4.php" class="charlas-mas">
                                                 <i class="fa fa-plus"></i>
                                             </a>
                                         </a>
@@ -263,10 +354,10 @@
                     <div class="single-shot">
                         <div class="single-team-member">
                             <div class="charlas-image">
-                                <img src="/img/charlas/9-5.jpg" alt="">
+                                <img src="img/charlas/9-5.jpg" alt="">
                                 <div class="charlas-hover-effects">
                                     <div class="charlas-social-icon">
-                                        <a href="/cursos/9-5.php">
+                                        <a href="cursos/9-5.php">
                                             <h5>Nuevas economías</h5>
                                             <ul class="d-inline-flex charla-info">
                                                 <li>
@@ -276,7 +367,7 @@
                                                     <i class="fa fa-clock-o"></i> 18:00hs
                                                 </li>
                                             </ul>
-                                            <a href="" class="charlas-mas">
+                                            <a href="cursos/9-5.php" class="charlas-mas">
                                                 <i class="fa fa-plus"></i>
                                             </a>
                                         </a>
@@ -288,10 +379,10 @@
                     <div class="single-shot">
                         <div class="single-team-member">
                             <div class="charlas-image">
-                                <img src="/img/charlas/13-6.jpg" alt="">
+                                <img src="img/charlas/13-6.jpg" alt="">
                                 <div class="charlas-hover-effects">
                                     <div class="charlas-social-icon">
-                                        <a href="/cursos/13-6">
+                                        <a href="cursos/13-6.php">
                                             <h5>Conocé tus fortalezas</h5>
                                             <ul class="d-inline-flex charla-info">
                                                 <li>
@@ -301,7 +392,7 @@
                                                     <i class="fa fa-clock-o"></i> 18:00hs
                                                 </li>
                                             </ul>
-                                            <a href="" class="charlas-mas">
+                                            <a href="cursos/13-6.php" class="charlas-mas">
                                                 <i class="fa fa-plus"></i>
                                             </a>
                                         </a>
@@ -337,17 +428,17 @@
                         <p>+54-9-351-2017150</p>
                     </div>
                     <div class="footer-social-icon">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/MEExperiencias" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/meexperiencias" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/meexperiencias/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                     
                 </div>
                 <div class="col-md-7">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="#" method="post">
+                        <form action="cursos/envio-general.php" method="post">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">
@@ -378,7 +469,7 @@
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <select class="form-control" id="pais">
+                                            <select class="form-control" id="pais" name="pais">
                                                 <option disabled selected>¿De donde nos escribís?</option>
                                                 <option value="Afganistán" id="AF">Afganistán</option>
                                                 <option value="Albania" id="AL">Albania</option>

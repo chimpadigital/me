@@ -12,7 +12,7 @@
     <title>ME Experiencia - Consultora en felicidad organizacional</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/core-img/favicon.png">
 
     <!-- Core Stylesheet -->
     <link href="style.css" rel="stylesheet">
@@ -39,36 +39,36 @@
                 <!-- Menu Area Start -->
                 <div class="col-12">
                     <div class="menu_area">
-                        <nav class="navbar navbar-expand-lg navbar-light">
+                        <nav class="navbar navbar-expand-xl navbar-light">
                             <!-- Logo -->
-                            <a class="navbar-brand d-block d-lg-none" href="bienvenido.php">
+                            <a class="navbar-brand d-block d-xl-none" href="bienvenido.php">
                                 <img src="img/core-img/logo-menu.svg" alt="">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                             <!-- Menu Area -->
                             <div class="collapse navbar-collapse" id="ca-navbar">
-                                <ul class="navbar-nav mr-auto" id="nav">
-                                    <li class="nav-item"><a class="nav-link" href="bienvenido.php">Bienvenido</a></li>
+                                <ul class="navbar-nav mr-auto" id="nav" style="align-items: center;">
+                                    <li class="nav-item"><a class="nav-link" href="bienvenido.php"><span class="active-nuevo">Bienvenido</span></a></li>
                                     <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quienes Somos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="servicios.php">¿Qué hacemos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
                                     
                                 </ul>
-                                <a class="navbar-brand d-none d-lg-block" href="bienvenido.php">
+                                <a class="navbar-brand d-none d-xl-block" href="bienvenido.php">
                                     <img src="img/core-img/logo-menu.svg" alt="">
                                 </a>
-                                <ul class="navbar-nav ml-auto" id="nav">
+                                <ul class="navbar-nav ml-auto" id="nav" style="align-items: center;">
                                     <li class="nav-item"><a class="nav-link" href="cursos.php">Próximos cursos</a></li>
                                     <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
                                     <div class="menu-social-icon">
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href="https://www.facebook.com/MEExperiencias" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com/meexperiencias/ " target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
                                     </div>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/core-img/arg.png" class="pais" alt=""></a>
+                                        <a class="nav-link dropdown-toggle" href="bienvenido.php" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/core-img/arg.png" class="pais" alt=""></a>
                                         <div class="dropdown-menu" aria-labelledby="dropdown09">
-                                            <a class="dropdown-item" href="#fr"><img src="img/core-img/cr.png" class="pais" alt=""></a>
+                                            <a class="dropdown-item" href="../cr/bienvenido.php"><img src="img/core-img/cr.png" class="pais" alt=""></a>
                                         </div>
                                     </li>
                                     

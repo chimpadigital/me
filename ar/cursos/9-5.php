@@ -27,7 +27,7 @@
                     </ul>
                     
                     <button class="btn-acordeon wow fadeInUp" data-wow-delay="1s" type="button" data-toggle="collapse" data-target="#desc" aria-expanded="false" aria-controls="collapseExample">
-                        Acerca del evento <img src="/img/core-img/plus.svg" class="float-right" alt="">
+                        Acerca del evento <img src="../img/core-img/plus.svg" class="float-right" alt="">
         
                         <div class="collapse" id="desc">
                             <div class="card card-body">
@@ -51,7 +51,7 @@
                     </button>
 
                     <button class="btn-acordeon wow fadeInUp" data-wow-delay="1.2s" type="button" data-toggle="collapse" data-target="#temas" aria-expanded="false" aria-controls="collapseExample">
-                        Que vamos a aprender <img src="/img/core-img/plus.svg" class="float-right" alt="">
+                        Que vamos a aprender <img src="../img/core-img/plus.svg" class="float-right" alt="">
         
                         <div class="collapse" id="temas">
                             <div class="card card-body">
@@ -104,7 +104,7 @@
                         <h3 class="">Costo</h3>
                         <h1 class="mb-4">$600</h1>
                         
-                        <a href="" class="btn btn-primary mt-5">Inscribirse</a>
+                        <a href="inscripcion-9-5.php" class="btn btn-primary mt-5">Inscribirse</a>
 
                         <h6 class="mt-3"><b>*Información importante !! La inscripción finaliza cuando realizas el pago total del curso por medio de transferencia bancaria.</b> </h6>
                         <!-- <p>Datos para realizar la transferencia:</p>
@@ -211,7 +211,7 @@
                                     <img src="../img/charlas/13-6.jpg" alt="">
                                     <div class="charlas-hover-effects">
                                         <div class="charlas-social-icon">
-                                            <a href="13-6">
+                                            <a href="13-6.php">
                                                 <h5>Conocé tus fortalezas</h5>
                                                 <ul class="d-inline-flex charla-info">
                                                     <li>
@@ -258,17 +258,17 @@
                         <p>+54-9-351-2017150</p>
                     </div>
                     <div class="footer-social-icon">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/MEExperiencias" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/meexperiencias" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/meexperiencias/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                     
                 </div>
                 <div class="col-md-7">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="#" method="post">
+                        <form action="envio-general.php" method="post">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">

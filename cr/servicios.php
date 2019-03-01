@@ -1,4 +1,87 @@
-<?php include 'header.php';?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>ME Experiencia - Consultora en felicidad organizacional</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.png">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
+    </div>
+
+    <!-- Facebook widget -->
+    <div id="fb-root"></div>
+    <script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2&appId=1352445738104069&autoLogAppEvents=1"></script>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand d-block d-lg-none" href="bienvenido.php">
+                                <img src="img/core-img/logo-menu.svg" alt="">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav mr-auto" id="nav">
+                                    <li class="nav-item"><a class="nav-link" href="bienvenido.php">Bienvenido</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quienes Somos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="servicios.php"><span class="active-nuevo">¿Qué hacemos?</span></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                                    
+                                </ul>
+                                <a class="navbar-brand d-none d-lg-block" href="bienvenido.php">
+                                    <img src="img/core-img/logo-menu.svg" alt="">
+                                </a>
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item"><a class="nav-link" href="cursos.php">Próximos cursos</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
+                                    <div class="menu-social-icon">
+                                        <a href="https://www.facebook.com/ME-Consultora-en-Felicidad-Organizacional-Centroam%C3%A9rica-688695364861248/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href=" https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com/meexperiencias/ " target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </div>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="servicios.php" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/core-img/cr.png" class="pais" alt=""></a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                            <a class="dropdown-item" href="../ar/servicios.php"><img src="img/core-img/arg.png" class="pais" alt=""></a>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
 
 
     <!-- ***** Wellcome Area Start ***** -->
@@ -76,14 +159,14 @@
        
     </section>
     <!-- ***** Wellcome Area End ***** -->
-    <section class="bg-white section_padding_100_50">
+    <section class="bg-white section_padding_100_50" id="asesoria">
         <div class="container">
             <div class="row">
                 <!-----------------------------------------------------
                 ASESORIA
                 ------------------------------------------------------>
 
-                <div class="col-12 col-md-5 order-1 wow fadeInLeft" id="asesoria" data-wow-delay="0.2s">
+                <div class="col-12 col-md-5 order-1 wow fadeInLeft"  data-wow-delay="0.2s">
                     <img src="img/ilustraciones/asesoria.svg" alt="" class="mb-5">
                 </div>
                 <div class="col-12 col-md-7 order-2 wow fadeInRight" data-wow-delay="0.3s">
@@ -92,8 +175,9 @@
                         <p class="">¡Vamos con todo! Te acompañamos en la concreción de tus objetivos organizacionales</p>
                         <!-- <div class="line-shape"></div> -->
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#1" aria-expanded="false" aria-controls="collapseExample">
-                        Asesoría Estratégica <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon1" type="button" data-toggle="collapse" data-target="#1" aria-expanded="false" aria-controls="collapseExample">
+
+                        Asesoría Estratégica <i class="fa fa-plus float-right" id="hola1"></i>
 
                         <div class="collapse" id="1">
                             <div class="card card-body">
@@ -111,8 +195,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#2" aria-expanded="false" aria-controls="collapseExample">
-                        Asesoría en Comunicación Interna <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon2" type="button" data-toggle="collapse" data-target="#2" aria-expanded="false" aria-controls="collapseExample">
+                        Asesoría en Comunicación Interna <i class="fa fa-plus float-right" id="hola2"></i>
 
                         <div class="collapse" id="2">
                             <div class="card card-body">
@@ -130,8 +214,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#3" aria-expanded="false" aria-controls="collapseExample">
-                        Asesoría en Cultura Organizacional <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon3" type="button" data-toggle="collapse" data-target="#3" aria-expanded="false" aria-controls="collapseExample">
+                        Asesoría en Cultura Organizacional <i class="fa fa-plus float-right" id="hola3"></i>
 
                         <div class="collapse" id="3">
                             <div class="card card-body">
@@ -149,8 +233,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#4" aria-expanded="false" aria-controls="collapseExample">
-                        Asesoría en Procesos Organizacionales <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon4" type="button" data-toggle="collapse" data-target="#4" aria-expanded="false" aria-controls="collapseExample">
+                        Asesoría en Procesos Organizacionales <i class="fa fa-plus float-right" id="hola4"></i>
 
                         <div class="collapse" id="4">
                             <div class="card card-body">
@@ -168,8 +252,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#5" aria-expanded="false" aria-controls="collapseExample">
-                        Asesoría en Empresas B <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon5" type="button" data-toggle="collapse" data-target="#5" aria-expanded="false" aria-controls="collapseExample" id="cursos">
+                        Asesoría en Empresas B <i class="fa fa-plus float-right" id="hola5"></i>
 
                         <div class="collapse" id="5">
                             <div class="card card-body">
@@ -178,7 +262,7 @@
                                         <p class="mb-3">Guiamos y acompañamos a la organización en el proceso hacia la certificación de Empresa B.</p>
                                         <a href="#contact" class="btn-primary btn-sm">INFORMAME</a>
                                     </div>
-                                    <div class="col-md-5 col-12 mt-4 mt-lg-0">
+                                    <div class="col-md-5 col-12 mt-4 mt-lg-0" >
                                         <img src="img/servicios/asesoria/empresab.jpg" alt="">
                                     </div>
                                     
@@ -190,18 +274,18 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" >
                 <!-----------------------------------------------------
                 CURSOS
                 ------------------------------------------------------>
-                <div class="col-12 col-md-7 order-4 order-md-3 wow fadeInLeft" id="cursos" data-wow-delay="0.2s">
+                <div class="col-12 col-md-7 order-4 order-md-3 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="section-heading">
                         <h2 class="mb-4">Cursos de Formación</h2>
                         <p class="">¿Querés capacitar de manera diferente a tu organización?</p>
                         <!-- <div class="line-shape"></div> -->
     
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#c1" aria-expanded="false" aria-controls="collapseExample">
-                        Atención al cliente <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon6" type="button" data-toggle="collapse" data-target="#c1" aria-expanded="false" aria-controls="collapseExample">
+                        Atención al cliente <i class="fa fa-plus float-right" id="hola6"></i>
     
                         <div class="collapse" id="c1">
                             <div class="card card-body">
@@ -219,8 +303,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#c-1" aria-expanded="false" aria-controls="collapseExample">
-                        Fortalezas <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon7" type="button" data-toggle="collapse" data-target="#c-1" aria-expanded="false" aria-controls="collapseExample">
+                        Fortalezas <i class="fa fa-plus float-right" id="hola7"></i>
     
                         <div class="collapse" id="c-1">
                             <div class="card card-body">
@@ -238,8 +322,8 @@
                         </div>
                         </button>
     
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#c2" aria-expanded="false" aria-controls="collapseExample">
-                        Liderazgo <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon8" type="button" data-toggle="collapse" data-target="#c2" aria-expanded="false" aria-controls="collapseExample">
+                        Liderazgo <i class="fa fa-plus float-right" id="hola8"></i>
     
                         <div class="collapse" id="c2">
                             <div class="card card-body">
@@ -257,8 +341,8 @@
                         </div>
                         </button>
     
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#c3" aria-expanded="false" aria-controls="collapseExample">
-                        Comunicación Efectiva <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon9" type="button" data-toggle="collapse" data-target="#c3" aria-expanded="false" aria-controls="collapseExample">
+                        Comunicación Efectiva <i class="fa fa-plus float-right" id="hola9"></i>
     
                         <div class="collapse" id="c3">
                             <div class="card card-body">
@@ -276,8 +360,8 @@
                         </div>
                         </button>
     
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#c4" aria-expanded="false" aria-controls="collapseExample">
-                        Negociación Ganar-Ganar <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon10" type="button" data-toggle="collapse" data-target="#c4" aria-expanded="false" aria-controls="collapseExample">
+                        Negociación Ganar-Ganar <i class="fa fa-plus float-right" id="hola10"></i>
     
                         <div class="collapse" id="c4">
                             <div class="card card-body">
@@ -295,8 +379,8 @@
                         </div>
                         </button>
     
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#c5" aria-expanded="false" aria-controls="collapseExample">
-                        Administración del tiempo <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon11" type="button" data-toggle="collapse" data-target="#c5" aria-expanded="false" aria-controls="collapseExample">
+                        Administración del tiempo <i class="fa fa-plus float-right" id="hola11"></i>
     
                         <div class="collapse" id="c5">
                             <div class="card card-body">
@@ -314,8 +398,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#c6" aria-expanded="false" aria-controls="collapseExample">
-                        Feedback Efectivo <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon12" type="button" data-toggle="collapse" data-target="#c6" aria-expanded="false" aria-controls="collapseExample">
+                        Feedback Efectivo <i class="fa fa-plus float-right" id="hola12"></i>
     
                         <div class="collapse" id="c6">
                             <div class="card card-body">
@@ -333,8 +417,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#c7" aria-expanded="false" aria-controls="collapseExample">
-                        Entrenamiento en Felicidad Organizacional <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon13" type="button" data-toggle="collapse" data-target="#c7" aria-expanded="false" aria-controls="collapseExample"  id="team-building">
+                        Entrenamiento en Felicidad Organizacional <i class="fa fa-plus float-right" id="hola13"></i>
     
                         <div class="collapse" id="c7">
                             <div class="card card-body">
@@ -362,7 +446,7 @@
                 <!-----------------------------------------------------
                 TEAM BUILDING
                 ------------------------------------------------------>
-                <div class="col-12 col-md-5 order-5 wow fadeInLeft" id="team-building" data-wow-delay="0.2s">
+                <div class="col-12 col-md-5 order-5 wow fadeInLeft" data-wow-delay="0.2s">
                     <img src="img/ilustraciones/team.svg" alt="" class="mb-5">
                 </div>
                 <div class="col-12 col-md-7 order-6 wow fadeInRight" data-wow-delay="0.3s">
@@ -371,8 +455,8 @@
                         <p class="">Motivá a tu Equipo con Experiencias únicas. Un día distinto con resultados distintos</p>
                         <!-- <div class="line-shape"></div> -->
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#t1" aria-expanded="false" aria-controls="collapseExample">
-                        Entrenando Campeones <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon14" type="button" data-toggle="collapse" data-target="#t1" aria-expanded="false" aria-controls="collapseExample">
+                        Entrenando Campeones <i class="fa fa-plus float-right" id="hola14"></i>
 
                         <div class="collapse" id="t1">
                             <div class="card card-body">
@@ -390,8 +474,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#t2" aria-expanded="false" aria-controls="collapseExample">
-                        Liderar con swing <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon15" type="button" data-toggle="collapse" data-target="#t2" aria-expanded="false" aria-controls="collapseExample">
+                        Liderar con swing <i class="fa fa-plus float-right" id="hola15"></i>
 
                         <div class="collapse" id="t2">
                             <div class="card card-body">
@@ -409,8 +493,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#t3" aria-expanded="false" aria-controls="collapseExample">
-                        Confianza y Liderazgo <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon16" type="button" data-toggle="collapse" data-target="#t3" aria-expanded="false" aria-controls="collapseExample">
+                        Confianza y Liderazgo <i class="fa fa-plus float-right" id="hola16"></i>
 
                         <div class="collapse" id="t3">
                             <div class="card card-body">
@@ -429,8 +513,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#t4" aria-expanded="false" aria-controls="collapseExample">
-                        Construcción de equipo <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon17" type="button" data-toggle="collapse" data-target="#t4" aria-expanded="false" aria-controls="collapseExample">
+                        Construcción de equipo <i class="fa fa-plus float-right" id="hola17"></i>
 
                         <div class="collapse" id="t4">
                             <div class="card card-body">
@@ -448,8 +532,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#t5" aria-expanded="false" aria-controls="collapseExample">
-                        Una pausa para relajar <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon18" type="button" data-toggle="collapse" data-target="#t5" aria-expanded="false" aria-controls="collapseExample">
+                        Una pausa para relajar <i class="fa fa-plus float-right" id="hola18"></i>
 
                         <div class="collapse" id="t5">
                             <div class="card card-body">
@@ -467,8 +551,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#t6" aria-expanded="false" aria-controls="collapseExample">
-                        Desencadenando la Innovación <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon19" type="button" data-toggle="collapse" data-target="#t6" aria-expanded="false" aria-controls="collapseExample" id="charlas">
+                        Desencadenando la Innovación <i class="fa fa-plus float-right" id="hola19"></i>
 
                         <div class="collapse" id="t6">
                             <div class="card card-body">
@@ -493,14 +577,14 @@
                 <!-----------------------------------------------------
                 CHARLAS Y CONFERENCIAS
                 ------------------------------------------------------>
-                <div class="col-12 col-md-7 order-md-7 order-8 wow fadeInLeft order-4" data-wow-delay="0.2s" id="charlas">
+                <div class="col-12 col-md-7 order-md-7 order-8 wow fadeInLeft order-4" data-wow-delay="0.2s" >
                     <div class="section-heading">
                         <h2 class="mb-4">Charlas y conferencias</h2>
                         <p class="">Charlas y conferencias In Company</p>
                         <!-- <div class="line-shape"></div> -->
     
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#w1" aria-expanded="false" aria-controls="collapseExample">
-                        Flow, fluir en el trabajo <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon20" type="button" data-toggle="collapse" data-target="#w1" aria-expanded="false" aria-controls="collapseExample">
+                        Flow, fluir en el trabajo <i class="fa fa-plus float-right" id="hola20"></i>
     
                         <div class="collapse" id="w1">
                             <div class="card card-body">
@@ -518,8 +602,8 @@
                         </div>
                         </button>
     
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#w2" aria-expanded="false" aria-controls="collapseExample">
-                        ¿Has descubierto tu verdadera pasión? <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon21" type="button" data-toggle="collapse" data-target="#w2" aria-expanded="false" aria-controls="collapseExample">
+                        ¿Has descubierto tu verdadera pasión? <i class="fa fa-plus float-right" id="hola21"></i>
     
                         <div class="collapse" id="w2">
                             <div class="card card-body">
@@ -537,8 +621,8 @@
                         </div>
                         </button>
     
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#w3" aria-expanded="false" aria-controls="collapseExample">
-                        Happy Canvas <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon22" type="button" data-toggle="collapse" data-target="#w3" aria-expanded="false" aria-controls="collapseExample">
+                        Happy Canvas <i class="fa fa-plus float-right" id="hola22"></i>
     
                         <div class="collapse" id="w3">
                             <div class="card card-body">
@@ -556,8 +640,8 @@
                         </div>
                         </button>
     
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#w4" aria-expanded="false" aria-controls="collapseExample">
-                        Felicidad Organizacional <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon23" type="button" data-toggle="collapse" data-target="#w4" aria-expanded="false" aria-controls="collapseExample">
+                        Felicidad Organizacional <i class="fa fa-plus float-right" id="hola23"></i>
     
                         <div class="collapse" id="w4">
                             <div class="card card-body">
@@ -575,8 +659,8 @@
                         </div>
                         </button>
     
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#w5" aria-expanded="false" aria-controls="collapseExample">
-                        Diversidad en los equipos de trabajo <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon24" type="button" data-toggle="collapse" data-target="#w5" aria-expanded="false" aria-controls="collapseExample">
+                        Diversidad en los equipos de trabajo <i class="fa fa-plus float-right" id="hola24"></i>
     
                         <div class="collapse" id="w5">
                             <div class="card card-body">
@@ -594,8 +678,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#w6" aria-expanded="false" aria-controls="collapseExample">
-                        ¿Qué son las empresas B? <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon25" type="button" data-toggle="collapse" data-target="#w6" aria-expanded="false" aria-controls="collapseExample">
+                        ¿Qué son las empresas B? <i class="fa fa-plus float-right" id="hola25"></i>
     
                         <div class="collapse" id="w6">
                             <div class="card card-body">
@@ -613,8 +697,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#w7" aria-expanded="false" aria-controls="collapseExample">
-                        Desafío High-Tech / High-Touch <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon26" type="button" data-toggle="collapse" data-target="#w7" aria-expanded="false" aria-controls="collapseExample">
+                        Desafío High-Tech / High-Touch <i class="fa fa-plus float-right" id="hola26"></i>
     
                         <div class="collapse" id="w7">
                             <div class="card card-body">
@@ -632,8 +716,8 @@
                         </div>
                         </button>
 
-                        <button class="btn-acordeon" type="button" data-toggle="collapse" data-target="#w8" aria-expanded="false" aria-controls="collapseExample">
-                        Pequeños ajustes, GRANDES CAMBIOS <img src="img/core-img/plus.svg" class="float-right" alt="">
+                        <button class="btn-acordeon btn-acordeon27" type="button" data-toggle="collapse" data-target="#w8" aria-expanded="false" aria-controls="collapseExample" id="contact">
+                        Pequeños ajustes, GRANDES CAMBIOS <i class="fa fa-plus float-right" id="hola27"></i>
     
                         <div class="collapse" id="w8">
                             <div class="card card-body">
@@ -684,17 +768,17 @@
                         <p>+54-9-351-2017150</p>
                     </div>
                     <div class="footer-social-icon">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/ME-Consultora-en-Felicidad-Organizacional-Centroam%C3%A9rica-688695364861248/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+<a href="https://twitter.com/meexperiencias" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<a href="https://www.instagram.com/meexperiencias/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                     
                 </div>
                 <div class="col-md-7">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="#" method="post">
+                        <form action="cursos/envio-general.php" method="post">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">

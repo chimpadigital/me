@@ -6,7 +6,6 @@ date_default_timezone_set('America/Argentina/Buenos_Aires');
 //$email_to = "carlosdanielgutierrez@gmail.com";
 
 
-// $email_to ="info@ralseff.com";
 
 $name = $_REQUEST['name'];
 $email = $_REQUEST['email'];
@@ -108,16 +107,16 @@ if (!$mail->send()) {
     $mail_error='Mensaje Enviado, Gracias';
 }
 // Ahora se envía el e-mail usando la función mail() de PHP
-//$headers = 'From: Ralseff <info@ralseff.com>' . "\r\n" .
-//    'Reply-To: noreply@ralseff.com' . "\r\n" .
-//    'Cc: ralseff@chimpancedigital.com.ar' . "\r\n" .
-//    'X-Mailer: PHP/' . phpversion();
-//$mail_enviado = @mail($email_to, utf8_decode($email_subject), utf8_decode($email_message), $headers);
+$headers = 'From: Ralseff <info@ralseff.com>' . "\r\n" .
+   'Reply-To: noreply@ralseff.com' . "\r\n" .
+   'Cc: ralseff@chimpancedigital.com.ar' . "\r\n" .
+   'X-Mailer: PHP/' . phpversion();
+$mail_enviado = @mail($email_to, utf8_decode($email_subject), utf8_decode($email_message), $headers);
 
 
 if($mail_enviado)
 {
-echo "<script>location.href='/meexperiencias/ar/cursos/gracias-9-5.php';</script>";
+echo "<script>location.href='gracias-11-4.php';</script>";
 
 }
 else

@@ -121,7 +121,7 @@
                                     <img src="../img/charlas/13-6.jpg" alt="">
                                     <div class="charlas-hover-effects">
                                         <div class="charlas-social-icon">
-                                            <a href="13-6">
+                                            <a href="13-6.php">
                                                 <h5>Conocé tus fortalezas</h5>
                                                 <ul class="d-inline-flex charla-info">
                                                     <li>
@@ -158,27 +158,27 @@
                         <h2>Contacto</h2>
                     </div>
                     <div class="footer-text">
-                        <img src="/img/core-img/mail.svg" class="float-left mr-3 mb-5" alt="">
+                        <img src="img/core-img/mail.svg" class="float-left mr-3 mb-5" alt="">
                         <h4>EscribiME</h4>
                         <p>contamemas@meexperiencias.com</p>
                     </div>
                     <div class="footer-text">
-                        <img src="/img/core-img/tel.svg" class="float-left mr-3 mb-5" alt="">
+                        <img src="img/core-img/tel.svg" class="float-left mr-3 mb-5" alt="">
                         <h4>LlamaME</h4>
                         <p>+54-9-351-2017150</p>
                     </div>
                     <div class="footer-social-icon">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/MEExperiencias" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/meexperiencias" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/meexperiencias/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                     
                 </div>
                 <div class="col-md-7">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="#" method="post">
+                        <form action="envio-general.php" method="post">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">

@@ -521,8 +521,8 @@ p {
     line-height: 42px;
 }
 
-.wellcome-heading img {transform: translate(50%, 40%);}
-.wellcome-heading2 img {transform: translate(50%, 40%);}
+.wellcome-heading img {transform:none;}
+.wellcome-heading2 img {transform:none;}
 img.pais{width: 40px;}
 .get-start-area .email {
     background: #9572e8;
@@ -1558,6 +1558,10 @@ border-radius: 30px;
 .btn-pais:hover {
     color: #ffffff;
     background: #45A8BC;
+}
+.btn-pais-2:hover {
+    color: #ffffff;
+    background:#002A7F;
 }
 
 .navbar-fixed-top {

@@ -1,4 +1,87 @@
-<?php include 'header.php';?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>ME Experiencia - Consultora en felicidad organizacional</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.png">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
+    </div>
+
+    <!-- Facebook widget -->
+    <div id="fb-root"></div>
+    <script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2&appId=1352445738104069&autoLogAppEvents=1"></script>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand d-block d-lg-none" href="bienvenido.php">
+                                <img src="img/core-img/logo-menu.svg" alt="">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav mr-auto" id="nav" style="align-items: center;">
+                                    <li class="nav-item"><a class="nav-link" href="bienvenido.php">Bienvenido</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="nosotras.php"><span class="active-nuevo">¿Quienes Somos?</span></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="servicios.php">¿Qué hacemos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                                    
+                                </ul>
+                                <a class="navbar-brand d-none d-lg-block" href="bienvenido.php">
+                                    <img src="img/core-img/logo-menu.svg" alt="">
+                                </a>
+                                <ul class="navbar-nav ml-auto" id="nav" style="align-items: center;">
+                                    <li class="nav-item"><a class="nav-link" href="cursos.php">Próximos cursos</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
+                                    <div class="menu-social-icon">
+                                        <a href="https://www.facebook.com/ME-Consultora-en-Felicidad-Organizacional-Centroam%C3%A9rica-688695364861248/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href=" https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com/meexperiencias/ " target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </div>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="nosotras.php" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/core-img/cr.png" class="pais" alt=""></a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                            <a class="dropdown-item" href="../ar/nosotras.php"><img src="img/core-img/arg.png" class="pais" alt=""></a>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
 
 
     <!-- ***** Wellcome Area Start ***** -->
@@ -199,7 +282,7 @@
                 <div class="col-md-3 col-12">
                     <div class="single-team-member">
                         <div class="member-image text-center">
-                            <img src="img/team-img/ale.png" class="w-100" alt="">
+                            <img src="img/team-img/ale.jpg" class="w-100" alt="">
                             <div class="team-hover-effects">
                                 <p class="text-white text-center">Equipo Centroamérica:<br>¡la que exporta la felicidad a otros lugares!</p>
                                 <div class="team-social-icon">
@@ -230,7 +313,7 @@
                             <h2 class="mb-4">Nuestro día a día</h2>
 
                            <!-- LightWidget WIDGET -->
-                           <script src="http://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/477991bad43b5dbf836075eeb09a7379.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+                           <script src="http://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/477991bad43b5dbf836075eeb09a7379.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 
 
 
@@ -385,17 +468,17 @@
                         <p>+54-9-351-2017150</p>
                     </div>
                     <div class="footer-social-icon">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/ME-Consultora-en-Felicidad-Organizacional-Centroam%C3%A9rica-688695364861248/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+<a href="https://twitter.com/meexperiencias" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<a href="https://www.instagram.com/meexperiencias/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                     
                 </div>
                 <div class="col-md-7">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="#" method="post">
+                        <form action="cursos/envio-general.php" method="post">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">

@@ -3,10 +3,11 @@
     .separator {
 
         top: 0px;
-        right: -207px;
+        right: -138px;
         z-index: -1;
         height: 100%;
     }
+
     .separator img{height: 100%;}
     .container.no-gutters {
         max-width: 100%;
@@ -18,7 +19,7 @@
         top: 50%;}
     .get-start-area{margin-right: 250px;}
     .mt-7 {
-        margin-top: 18rem!important;
+        margin-top: 11rem!important;
     }
     .welcome-thumb {
         width: 67%;
@@ -40,6 +41,14 @@
         top: -201px;
         right: -363px;
         z-index: -1;
+    }
+}
+@media (min-width:1920px){
+    .separator {
+        top: 0px;
+        right: -228px!important;
+        z-index: -1;
+        height: 100%;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -155,6 +164,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+    .h100{height: 100vh;}
+    .lobby_area {
+        height: auto;
+    }
     .welcome-thumb2 {
         display:none;
     }
@@ -194,11 +207,13 @@
         position: absolute;
         bottom: 0px;
         transform: rotate(90deg) translate(-31%, 37%);
+        right: 0px;
+        top: 198px;
     }
     .separator img{width: 100%;}
     .get-start-area{
 
-        transform: translate(0%, 50%);
+        transform: translate(0%, 9%);
     }
     .btn-pais {
         font-weight: 600;
@@ -382,6 +397,20 @@
     .cool_facts_area .col-12:last-of-type .single-cool-fact {
         margin-bottom: 0;
     }
+    .wellcome-heading22 {
+        text-align: center;
+    }
+    .imagen-logo {
+        width: 183px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .get-start-area {
+        padding-bottom: 0px;
+    }
+    .boton-celular {
+        margin-top: 50px;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -404,6 +433,19 @@
     .get-start-area .email {
         max-width: 370px;
     }
+    .wellcome-heading22 {
+        text-align: center;
+    }
+    .imagen-logo {
+        width:250px;
+        margin-top:40px;
+    }
+    .get-start-area {
+        padding-bottom: 0px;
+    }
+    .boton-celular {
+        margin-top: 50px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -412,5 +454,18 @@
     }
     .get-start-area .email {
         margin-bottom: 0;
+    }
+    .wellcome-heading22 {
+        text-align: center;
+    }
+    .imagen-logo {
+        width:250px;
+        margin-top:40px;
+    }
+    .get-start-area {
+        padding-bottom: 0px;
+    }
+    .boton-celular {
+        margin-top: 50px;
     }
 }
