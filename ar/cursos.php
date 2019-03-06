@@ -49,7 +49,7 @@
                             <div class="collapse navbar-collapse" id="ca-navbar">
                                 <ul class="navbar-nav mr-auto" id="nav" style="align-items: center;">
                                     <li class="nav-item"><a class="nav-link" href="bienvenido.php"><span>Bienvenido</span></a></li>
-                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quienes Somos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quiénes Somos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="servicios.php">¿Qué hacemos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
                                     
@@ -102,12 +102,12 @@
                 </div>
             </div>
         </div>
-        <div class="special-area cursos wow fadeInUp" data-wow-delay="0.3s" id="eventos">
+        <div class="special-area cursos wow fadeInUp" data-wow-delay="0.3s" >
             <div class="container">
                 <div class="row mt-7">
                     <div class="col-12 text-center">
                         <!-- Section Heading Area -->
-                        <div class="section-heading text-center">
+                        <div class="section-heading text-center" id="eventos">
                             <h2 class="color-amarillo">Próximos eventos</h2>
                             <!-- <div class="line-shape"></div> -->
                         </div>

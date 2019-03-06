@@ -17,7 +17,7 @@
                                         </div>
                                     </div>
                                     <div class="col-2">
-                                        <img src="../img/core-img/sonrisa.png" class="sonrisa" alt="">
+                                        <!-- <img src="../img/core-img/sonrisa.png" class="sonrisa" alt=""> -->
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-6">

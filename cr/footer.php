@@ -20,12 +20,13 @@
                     <div class="footer-text2">
                         <img src="img/core-img/mail.svg" class="float-left mr-2 mb-1" alt="">
                         <h4>EscribiME</h4>
-                        <p>contamemas@meexperiencias.com</p>
+                        <p>holacostarica@meexperiencias.com</p>
                     </div>
                     <div class="footer-text2">
-                        <img src="img/core-img/tel.svg" class="float-left mr-2 mb-1" alt="">
+                        <img src="img/core-img/tel.svg" class="float-left mr-2 mb-5" alt="">
                         <h4>LlamaME</h4>
-                        <p>+54-9-351-2017150</p>
+                        <p>+(507) 226-9030</p>
+                        <p>+(507) 6030-9389</p>
                     </div>
                 </div>
                 <div class="col-1-5 col-md-2 mb-4 mb-md-0">
@@ -34,7 +35,7 @@
                     </div>
                     <ul>
                         <li class="mb-3"><a href="bienvenido.php">Bienvenido</a></li>
-                        <li class="mb-3"><a href="nosotras.php">¿Quienes somos?</a></li>
+                        <li class="mb-3"><a href="nosotras.php">¿Quiénes somos?</a></li>
                         <li class="mb-3"><a href="servicios.php">¿Qué hacemos?</a></li>
                         <li class="mb-3"><a href="blog.php">Blog</a></li>
                         <li class="mb-3"><a href="cursos.php">Próximos cursos</a></li>

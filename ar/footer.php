@@ -3,7 +3,7 @@
         <!-- footer logo -->
         <div class="container">
             <div class="row">
-                <div class="col-1-5 col-md-3 mb-4 mb-md-0">
+                <div class="col-1-5 col-md-2 mb-4 mb-md-0">
                     <img src="img/core-img/logo-footer.svg" class="mb-3" alt="">
                     <p class="text-white">Somos especialistas en Felicidad Organizacional y nos apasiona trabajar con otros para crecer, aprender y actualizarnos</p>
                     <div class="footer-social-icon">
@@ -34,7 +34,7 @@
                     </div>
                     <ul>
                         <li class="mb-3"><a href="bienvenido.php">Bienvenido</a></li>
-                        <li class="mb-3"><a href="nosotras.php">¿Quienes somos?</a></li>
+                        <li class="mb-3"><a href="nosotras.php">¿Quiénes somos?</a></li>
                         <li class="mb-3"><a href="servicios.php">¿Qué hacemos?</a></li>
                         <li class="mb-3"><a href="blog.php">Blog</a></li>
                         <li class="mb-3"><a href="cursos.php">Próximos cursos</a></li>
@@ -52,7 +52,7 @@
                         <li class="mb-3"><a href="servicios.php#charlas">Charlas y conferencias</a></li>
                     </ul>
                 </div>
-                <div class="col-1-5 col-md-2 mb-4 mb-md-0">
+                <div class="col-1-5 col-md-3 mb-4 mb-md-0">
                     <div class="fb-page" data-href="https://www.facebook.com/MEExperiencias/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-height="300" data-width=""data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/MEExperiencias/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MEExperiencias/">ME Consultora en Felicidad Organizacional</a></blockquote></div>
                 </div>
             </div>

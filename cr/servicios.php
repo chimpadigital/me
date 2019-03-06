@@ -49,7 +49,7 @@
                             <div class="collapse navbar-collapse" id="ca-navbar">
                                 <ul class="navbar-nav mr-auto" id="nav">
                                     <li class="nav-item"><a class="nav-link" href="bienvenido.php">Bienvenido</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quienes Somos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quiénes Somos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="servicios.php"><span class="active-nuevo">¿Qué hacemos?</span></a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
                                     
@@ -162,9 +162,13 @@
     <section class="bg-white section_padding_100_50" id="asesoria">
         <div class="container">
             <div class="row">
-                <!-----------------------------------------------------
-                ASESORIA
-                ------------------------------------------------------>
+                 <!-----------------------------------------------------
+    ASESORIA
+    ------------------------------------------------------>
+    <section class="section_padding_100_50 bg-secondary" id="asesoria">
+        <div class="container">
+            <div class="row">
+               
 
                 <div class="col-12 col-md-5 order-1 wow fadeInLeft"  data-wow-delay="0.2s">
                     <img src="img/ilustraciones/asesoria.svg" alt="" class="mb-5">
@@ -274,10 +278,15 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <!-----------------------------------------------------
+    CURSOS
+    ------------------------------------------------------>
+    <section class="section_padding_100_50 bg-white" id="cursos">
+        <div class="container">
             <div class="row" >
-                <!-----------------------------------------------------
-                CURSOS
-                ------------------------------------------------------>
+                
                 <div class="col-12 col-md-7 order-4 order-md-3 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="section-heading">
                         <h2 class="mb-4">Cursos de Formación</h2>
@@ -442,10 +451,16 @@
                     <img src="img/ilustraciones/cursos.svg" alt="" class="mb-5">
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-----------------------------------------------------
+    TEAM BUILDING
+    ------------------------------------------------------>
+    <section class="section_padding_100_50 bg-secondary" id="team-building">
+        <div class="container">
             <div class="row">
-                <!-----------------------------------------------------
-                TEAM BUILDING
-                ------------------------------------------------------>
+                
                 <div class="col-12 col-md-5 order-5 wow fadeInLeft" data-wow-delay="0.2s">
                     <img src="img/ilustraciones/team.svg" alt="" class="mb-5">
                 </div>
@@ -573,6 +588,10 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="section_padding_100_50 bg-white" id="charlas">
+        <div class="container">
             <div class="row">
                 <!-----------------------------------------------------
                 CHARLAS Y CONFERENCIAS
@@ -742,14 +761,12 @@
                 </div>
 
             </div>
-
-            </div>
         </div>
     </section>
     
     <!-- ***** Contact Us Area Start ***** -->
-    <section class="footer-contact-area section_padding_100 clearfix bg-white" id="contact">
-        <div class="container">
+    <section class="footer-contact-area section_padding_100 clearfix bg-white">
+        <div class="container" id="contact">
             <div class="row">
                 
                 <div class="col-md-5">
@@ -760,12 +777,12 @@
                     <div class="footer-text">
                         <img src="img/core-img/mail.svg" class="float-left mr-3 mb-5" alt="">
                         <h4>EscribiME</h4>
-                        <p>contamemas@meexperiencias.com</p>
+                        <p>holacostarica@meexperiencias.com</p>
                     </div>
                     <div class="footer-text">
                         <img src="img/core-img/tel.svg" class="float-left mr-3 mb-5" alt="">
                         <h4>LlamaME</h4>
-                        <p>+54-9-351-2017150</p>
+                        <p>+(507) 226-9030<br></br>+(507) 6030-9389</p>
                     </div>
                     <div class="footer-social-icon">
                         <a href="https://www.facebook.com/ME-Consultora-en-Felicidad-Organizacional-Centroam%C3%A9rica-688695364861248/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>

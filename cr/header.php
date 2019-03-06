@@ -49,7 +49,7 @@
                             <div class="collapse navbar-collapse" id="ca-navbar">
                                 <ul class="navbar-nav mr-auto" id="nav" style="align-items: center;">
                                     <li class="nav-item"><a class="nav-link" href="bienvenido.php">Bienvenido</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quienes Somos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quiénes Somos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="servicios.php">¿Qué hacemos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
                                     

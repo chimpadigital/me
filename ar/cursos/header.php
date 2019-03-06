@@ -41,7 +41,7 @@
                     <div class="menu_area">
                         <nav class="navbar navbar-expand-xl navbar-light">
                             <!-- Logo -->
-                            <a class="navbar-brand d-block d-xl-none" href="bienvenido.php">
+                            <a class="navbar-brand d-block d-xl-none" href="../bienvenido.php">
                                 <img src="../img/core-img/logo-menu.svg" alt="">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -49,12 +49,12 @@
                             <div class="collapse navbar-collapse" id="ca-navbar">
                                 <ul class="navbar-nav mr-auto" id="nav" style="align-items: center;">
                                     <li class="nav-item"><a class="nav-link" href="../bienvenido.php"><span>Bienvenido</span></a></li>
-                                    <li class="nav-item"><a class="nav-link" href="../nosotras.php">¿Quienes Somos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="../nosotras.php">¿Quiénes Somos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="../servicios.php">¿Qué hacemos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="../blog.php">Blog</a></li>
                                     
                                 </ul>
-                                <a class="navbar-brand d-none d-xl-block" href="bienvenido.php">
+                                <a class="navbar-brand d-none d-xl-block" href="../bienvenido.php">
                                     <img src="../img/core-img/logo-menu.svg" alt="">
                                 </a>
                                 <ul class="navbar-nav ml-auto" id="nav" style="align-items: center;">

@@ -49,7 +49,7 @@
                             <div class="collapse navbar-collapse" id="ca-navbar">
                                 <ul class="navbar-nav mr-auto" id="nav" style="align-items: center;">
                                     <li class="nav-item"><a class="nav-link" href="bienvenido.php"><span>Bienvenido</span></a></li>
-                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quienes Somos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quiénes Somos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="servicios.php"><span class="active-nuevo">¿Qué hacemos?</span></a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
                                     
@@ -769,7 +769,7 @@
                 
                 <div class="col-md-5">
                     <!-- Heading Text  -->
-                    <div class="footer-heading">
+                    <div class="footer-heading" id="contact">
                         <h2>Contacto</h2>
                     </div>
                     <div class="footer-text">
@@ -784,9 +784,9 @@
                     </div>
                     <div class="footer-social-icon">
                         <a href="https://www.facebook.com/MEExperiencias" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-<a href="https://twitter.com/meexperiencias" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-<a href="https://www.instagram.com/meexperiencias/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-<a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/meexperiencias" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/meexperiencias/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                     
                 </div>
@@ -1082,6 +1082,7 @@
                         </form>
                     </div>
                 </div>
+                <div class="col-12" ></div>
                 
             </div>
         </div>

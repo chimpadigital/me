@@ -49,7 +49,7 @@
                             <div class="collapse navbar-collapse" id="ca-navbar">
                                 <ul class="navbar-nav mr-auto" id="nav" style="align-items: center;">
                                     <li class="nav-item"><a class="nav-link" href="bienvenido.php">Bienvenido</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quienes Somos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quiénes Somos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="servicios.php">¿Qué hacemos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
                                     
@@ -111,12 +111,12 @@
                     <div class="footer-text">
                         <img src="img/core-img/mail.svg" class="float-left mr-3 mb-5" alt="">
                         <h4>EscribiME</h4>
-                        <p>contamemas@meexperiencias.com</p>
+                        <p>holacostarica@meexperiencias.com</p>
                     </div>
                     <div class="footer-text">
                         <img src="img/core-img/tel.svg" class="float-left mr-3 mb-5" alt="">
                         <h4>LlamaME</h4>
-                        <p>+54-9-351-2017150</p>
+                        <p>+(507) 226-9030<br></br>+(507) 6030-9389</p>
                     </div>
                     <div class="footer-social-icon">
                         <a href="https://www.facebook.com/ME-Consultora-en-Felicidad-Organizacional-Centroam%C3%A9rica-688695364861248/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>

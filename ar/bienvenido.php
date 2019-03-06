@@ -49,7 +49,7 @@
                             <div class="collapse navbar-collapse" id="ca-navbar">
                                 <ul class="navbar-nav mr-auto" id="nav" style="align-items: center;">
                                     <li class="nav-item"><a class="nav-link" href="bienvenido.php"><span class="active-nuevo">Bienvenido</span></a></li>
-                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quienes Somos?</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="nosotras.php">¿Quiénes Somos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="servicios.php">¿Qué hacemos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
                                     
@@ -92,7 +92,7 @@
                 <div class="col-12 col-md-4">
                     <div class="wellcome-heading wow fadeInLeft text-center text-md-left" data-wow-delay="0.7s">
                         <h2 class="mb-5">Consultora en Felicidad Organizacional</h2>
-                        <a href="servicios.php" class="btn-primary wow fadeInLeft mt-5" data-wow-delay="0.9s">INFORMAME</a>
+                        <a href="#about" class="btn-primary wow fadeInLeft mt-5" data-wow-delay="0.9s">INFORMAME</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-2"></div>
